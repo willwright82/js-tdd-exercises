@@ -26,7 +26,7 @@ test('the function can find an element at the end of the array', function() {
 });
 
 test('the function returns -1 if the element is not found', function() {
-    var haystack = ['needle', 'hay', 'rabbit', 'hat'];
+    var haystack = ['hay', 'rabbit', 'hat'];
     var position = findNeedle(haystack);
 
     expect(position).toBe(-1);
