@@ -2,7 +2,7 @@
  * This function is supposed to remove vowels from a phrase
  * Add tests to prove that it functions properly with these examples at least:
  *         removeVowels("goodbye")  // --> "gdby"
- *         removeVowels("nodegirls")  // --> "nd grls"
+ *         removeVowels("node girls")  // --> "nd grls"
  *         removeVowels('how are you today?') // --> "hw r y tdy?"
  * Consider EDGE cases (how the function behaves if you pass undefined, or a number etc..)
  * Then add a test that contains CAPITAL vowel letters (hEllo for example)
